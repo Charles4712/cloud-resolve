@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.charles.cloud</groupId>
+        <artifactId>cloud-common</artifactId>
+        <version>0.0.1</version>
+    </parent>
+    <artifactId>cloud-common-datasource</artifactId>
+    <version>0.0.1</version>
+    <name>cloud-common-datasource</name>
+    <description>动态切换数据源</description>
+
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+            <version>${dynamic-ds.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

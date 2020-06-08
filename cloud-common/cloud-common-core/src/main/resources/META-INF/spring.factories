@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.charles.cloud.common.core.config.JacksonConfig,\
+  com.charles.cloud.common.core.config.RedisTemplateConfig,\
+  com.charles.cloud.common.core.config.RestTemplateConfig,\
+  com.charles.cloud.common.core.mybatis.WebfluxConfig

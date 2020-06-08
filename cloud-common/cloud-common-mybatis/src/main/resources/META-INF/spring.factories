@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.charles.cloud.common.mybatis.MybatisAutoConfiguration
